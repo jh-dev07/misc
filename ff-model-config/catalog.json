@@ -1,0 +1,89 @@
+{
+  "recognition": {
+    "mean": 127.5,
+    "std": 127.5
+  },
+  "landmark": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "detectorOutputs": [
+    "448",
+    "471",
+    "494",
+    "451",
+    "474",
+    "497",
+    "454",
+    "477",
+    "500"
+  ],
+  "swapInputs": [
+    "target",
+    "source"
+  ],
+  "upstreamCommit": "99c43fd773a567a56212b2efdbc934b158215d48",
+  "facefusionRevision": "decc6c9d8f8e014878624452c6e8fe208726b4ec",
+  "files": {
+    "2d106det.onnx": {
+      "bytes": 5030888,
+      "sha256": "f001b856447c413801ef5c42091ed0cd516fcd21f2d6b79635b1e733a7109dbf"
+    },
+    "det_10g.onnx": {
+      "bytes": 16923827,
+      "sha256": "5838f7fe053675b1c7a08b633df49e7af5495cee0493c7dcf6697200b85b5b91"
+    },
+    "emap.bin": {
+      "bytes": 1048576,
+      "sha256": "370af5bf707dafdbea8a40448d697d9697610bd223ecf92887af9c9cc7055ac8"
+    },
+    "fran.onnx": {
+      "bytes": 130785959,
+      "sha256": "725bb979bda169e0469de31d35ded1f6fcca3413440564d375c92c863570933b"
+    },
+    "gfpgan_1.4.onnx": {
+      "bytes": 340299087,
+      "sha256": "accc4757b26bdb89b32b4d3500d4f79c9dff97c1dd7c7104bf9dcb95e3311385"
+    },
+    "inswapper_128.onnx": {
+      "bytes": 554253681,
+      "sha256": "e4a3f08c753cb72d04e10aa0f7dbe3deebbf39567d4ead6dce08e98aa49e16af"
+    },
+    "inswapper_128.onnx.001": {
+      "bytes": 293601280,
+      "sha256": "ebddecfc071fa03cabae111b89c79dbff35c4382d66495600d959292dff19472"
+    },
+    "inswapper_128.onnx.002": {
+      "bytes": 260652401,
+      "sha256": "23bcf680da4a57a05c901991732c6394c923f19a797e7cdf852fb438b2dd9d45"
+    },
+    "live_portrait_feature_extractor.onnx": {
+      "bytes": 3354251,
+      "sha256": "980d26afc9af6d1b6c946329df08b89a4a8582c9bb668d9475f5254e69434d15"
+    },
+    "live_portrait_generator.onnx": {
+      "bytes": 222263347,
+      "sha256": "db9274114fed504226c5921fc736b9558505e68682e7448631aea7b62cb3048a"
+    },
+    "live_portrait_motion_extractor.onnx": {
+      "bytes": 112636642,
+      "sha256": "ef4a00ff50d5d864994eeecb226dc3b298e62afacec8fa4fc8b912835ec4b0ab"
+    },
+    "live_portrait_stitcher.onnx": {
+      "bytes": 193259,
+      "sha256": "c6683427edf3e0c3a86e61b1dea1e6dad56c557f5e711fec93966cfb34fd5f87"
+    },
+    "u2netp.onnx": {
+      "bytes": 4603750,
+      "sha256": "d6963e54bccd16d0fa6e409f3b27a20114315d6cdc2a594dae238db425cba9ac"
+    },
+    "w600k_r50.onnx": {
+      "bytes": 174383860,
+      "sha256": "4c06341c33c2ca1f86781dab0e829f88ad5b64be9fba56e56bc9ebdefc619e43"
+    },
+    "wav2lip_96.onnx": {
+      "bytes": 145175489,
+      "sha256": "96fd047e18094c91298c3843699f0b2e7473bd431231ce92ae316c7b8e36746c"
+    }
+  }
+}
